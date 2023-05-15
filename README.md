@@ -1,1 +1,2 @@
 # recycle-compost-rubbish-poster
+This project is intended to build a poster that can be printed at any competent print shop with instructions for your local populace (family/house members, students and faculty, visitors, employees, etc.) to understand what they can compost, recycle, or throw away (trash / rubbish bin).

@@ -1,0 +1,18 @@
+/* variables here */
+:root {
+  --body-bg: #eee;
+  --body-fg: #333;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --body-bg: #333;
+    --body-fg: #eee;
+  }
+}
+/* end variables */
+
+html,
+body {
+  background-color: var(--body-bg);
+  color: var(--body-fg);
+}
