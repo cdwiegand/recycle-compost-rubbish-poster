@@ -1,0 +1,39 @@
+{
+  "data": [
+    {
+      "id": "cooked_meat",
+      "icon": "fixme",
+      "label": "Cooked Meat",
+      "compost": {
+        "capable": true,
+        "preferred": true,
+        "description": "Note that raw or uncooked meats are NOT compostable."
+      }
+    },
+    {
+      "id": "cardboard_clean",
+      "icon": "fixme",
+      "label": "Cardboard (clean)",
+      "compost": {
+        "capable": true,
+        "preferred": false,
+        "description": "Tear cardboard into palm-sized pieces first."
+      },
+      "recycle": {
+        "capable": true,
+        "preferred": true,
+        "description": "Cardboard must be clean, and not greasy or water-soaked."
+      }
+    },
+    {
+      "id": "cardboard_greasy",
+      "icon": "fixme",
+      "label": "Cardboard (greasy)",
+      "compost": {
+        "capable": true,
+        "preferred": true,
+        "description": "Cut or tear it into hand-sized pieces before putting into composting."
+      }
+    }
+  ]
+}

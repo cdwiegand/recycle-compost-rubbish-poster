@@ -9,21 +9,34 @@
   <body>
     <script async src="./index.js"></script>
     <h1>Compost, Recycle, and Rubbish Poster Project</h1>
-    <p>This project is intended to allow you to customize a printable poster design to inform your local populace, whether they be family members / housemates, students, faculty, visitors, employees, or anyone else, of the guidelines for recycling, composting, or throwing items away at your location.</p>
-    <section id="composting">
+    <p>This project is intended to allow you to customize a printable poster design to inform your local populace, whether they be family members, housemates, students, faculty, visitors, employees, or anyone else of the guidelines for recycling, composting, or throwing items away at your location.</p>
+    <section id="section_composting">
       <h1>Composting</h1>
       <input type="checkbox" aria-required="false" checked id="chk_composting" name="chk_composting" />
       <label for="chk_composting">Enable composting? Turning this off will remove composting information from the final result.</label>
+      <div id="items_composting">
+
+      </div>
     </section>
-    <section id="recycling">
+    <section id="section_recycling">
       <h1>Recycling</h1>
       <input type="checkbox" aria-required="false" checked id="chk_recycling" name="chk_recycling" />
       <label for="chk_recycling">Enable recycling? Turning this off will remove recycling information from the final result.</label>
+      <div id="items_recycling" class="items_div">
+
+      </div> 
     </section>
-    <section id="rubbish">
+    <section id="section_rubbish">
       <h1>Rubbish or Trash</h1>
-      <p>Anything that doesn't meet the other criteria would go here, as well as certain explicit items.</p>
-      
+      <p>Anything that doesn't meet the other criteria would go here, as well as certain explicit items.</p>  
+      <div id="items_rubbish" class="items_div">
+
+      </div>    
     </section>
+    <div id="div_template">
+      <input type="checkbox" aria-required="false" id="chk_template_item" name="chk_template_item" />
+      <label for="chk_template_item" id="label_template_item"></label>
+      <div id="div_template_description" class="items_div"></div>
+    </div>
   </body>
 </html>
